@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FPSGame Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Shipping",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Shipping",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Shipping",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Test",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Test",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Test",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Shipping",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Shipping",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Shipping",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Test",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Test",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGame IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Test",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGameEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Debug",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGameEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGameEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "FPSGameEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Development",
+				"/Users/bhuang/ben-github/unreal4-mastery-stealth/StealthGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		}
+	]
+}

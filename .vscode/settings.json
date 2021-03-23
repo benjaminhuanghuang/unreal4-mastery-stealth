@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"/Users/bhuang/ben-github/unreal4-mastery-stealth/.git": true,
+		"/Users/bhuang/ben-github/unreal4-mastery-stealth/.vscode": true,
+		"/Users/bhuang/ben-github/unreal4-mastery-stealth/Content": true,
+		"/Users/bhuang/ben-github/unreal4-mastery-stealth/DerivedDataCache": true,
+		"/Users/bhuang/ben-github/unreal4-mastery-stealth/Intermediate": true,
+		"/Users/bhuang/ben-github/unreal4-mastery-stealth/Saved": true
+	}
+}
