@@ -16,6 +16,9 @@ public:
 	AFPSObjectiveActor();
 
 protected:
+	UStaticMeshComponent *MeshComp;
+	USphaereComonent *ShereComp;
+	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 

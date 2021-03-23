@@ -540,7 +540,9 @@
                 "/Users/Shared/Epic Games/UE_4.25/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/RenderDebug/public",
                 "/Users/Shared/Epic Games/UE_4.25/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/PairFilter/include",
                 "/Users/Shared/Epic Games/UE_4.25/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/internal/include",
-                "/usr/local/include"
+                "/usr/local/include",
+								"${workspaceFolder}/**",
+								"${workspaceFolder}/Source/FPSGame/Public"
             ],
             "intelliSenseMode": "clang-x64",
             "macFrameworkPath": [
